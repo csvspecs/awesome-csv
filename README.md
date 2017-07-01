@@ -43,7 +43,7 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 ### CSV 2 / CSV Next
 
-- add csv-next notes
+- [CSV Next Notes](https://github.com/csvalues/csv-next) - Better Comma-Separated Values (CSV) Format Notes 
 
 
 
@@ -83,3 +83,16 @@ twitter: [CSVConference](https://twitter.com/CSVConference)
 - [csv,conf,v2](https://csvconf.com/2016/) - 2016 - May 3+4 @ Berlin, Germany
 - [csv,conf,v1](https://csvconf.com/2014/) - 2014 - July 15 @ Berlin, Germany
 
+
+
+## Meta
+
+**License**
+
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
+The awesome list is dedicated to the public domain. Use it as you please with no restrictions whatsoever.
+
+**Questions? Comments?**
+
+Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
