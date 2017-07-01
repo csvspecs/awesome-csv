@@ -45,7 +45,7 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 
 
-### CSV 2 / CSV Next
+### CSV 1.1 / CSV Next
 
 - [CSV Next Notes](https://github.com/csvalues/csv-next) - Better Comma-Separated Values (CSV) Format Notes 
 
