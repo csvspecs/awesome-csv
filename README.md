@@ -5,14 +5,10 @@
 
 ## CSV Family
 
-- IETF RFC #4180 - Common Format and MIME Type for Comma-Separated Values (CSV) Files -
-    [(Doc)](http://tools.ietf.org/rfc/rfc4180.txt) -
-     by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
-
-- OKFN (Open Knowledge Foundation) CSV - [(Doc)](http://data.okfn.org/standards/csv)
+- [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
 
 
-### Wikipedia
+**Wikipedia**
 
 - [Comma-separated_values](http://en.wikipedia.org/wiki/Comma-separated_values)
 
@@ -27,6 +23,8 @@ _lightweight standards and tooling to make it effortless to get, share, and vali
 by Open Knowledge Foundation (OKFN)
 
 web: [frictionlessdata.io](http://frictionlessdata.io), github: [frictionlessdata](https://github.com/frictionlessdata) 
+
+- [Comma-Separated Values Guide](http://frictionlessdata.io/guides/csv)
 
 
 
