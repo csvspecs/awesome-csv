@@ -11,13 +11,23 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 ## CSV Family
 
+
+### V1.0 "Classic"
+
 - [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
+
+
+### V1.1 "Modern"
+
+- [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://csvalues.github.io) - CSV evolved (for humans) - easy-to-write, easy-to-read
+
 
 
 **Wikipedia**
 
 - [Comma-separated values](http://en.wikipedia.org/wiki/Comma-separated_values)
-
+- [Delimiter](https://en.wikipedia.org/wiki/Delimiter) - why not space, tab(ulator), pipe, ascii 31, etc.
+- [String literal](https://en.wikipedia.org/wiki/String_literal) - (string) values with or without quotes
 
 
 ## Initiatives
