@@ -23,7 +23,7 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 
 
-**Wikipedia**
+**Wikipedia Articles**
 
 - [Comma-separated values](http://en.wikipedia.org/wiki/Comma-separated_values)
 - [Delimiter](https://en.wikipedia.org/wiki/Delimiter) - why not space, tab(ulator), pipe, ascii 31, etc.
