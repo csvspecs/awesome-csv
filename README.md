@@ -3,6 +3,12 @@
 # Awesome Comma-Separated Values (CSV) - What's Next?
 
 
+A collection about the comma-separated values (CSV) world for rich structured data in (plain) text
+
+
+#### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
+
+
 ## CSV Family
 
 - [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
@@ -10,7 +16,7 @@
 
 **Wikipedia**
 
-- [Comma-separated_values](http://en.wikipedia.org/wiki/Comma-separated_values)
+- [Comma-separated values](http://en.wikipedia.org/wiki/Comma-separated_values)
 
 
 
