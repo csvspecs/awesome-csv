@@ -11,6 +11,9 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 ## CSV Family
 
+[CSV V1.0 "Classic"](#csv-v10-classic) •
+[CSV V1.1 "Modern"](#csv-v11-modern)
+
 
 ## CSV V1.0 "Classic" 
 
@@ -97,7 +100,7 @@ By using commas you do NOT need to quote spaces in values, that is, use
 
 ### Tab 
 
-In the theory the tab (`/t`) separator is perfect. Values never use tabs, don't they?  So why hasn't the tab separator taken off?
+In theory the tab (`/t`) separator is perfect. Values never use tabs, don't they?  So why hasn't the tab separator taken off?
 
 In practice tab separators are invisible or look like spaces and often you cannot tell if a space is a tab or not. 
 
@@ -107,11 +110,11 @@ Thus, tab works great only and only (like space) if your values do NOT use space
 
 ### Field Separator (FS)
 
-Again in the theory the untypeable (unprintable) field separator (ASCII Code 31) is perfect. Values never use ASCII field separators.
+Again in theory the untypeable (unprintable) field separator (ASCII Code 31) is perfect. Values never use ASCII field separators.
 
-In practice if the field separator is invisible and unprintable how to do type it on your keyboard? 
+In practice if the field separator is invisible and unprintable how do you type it on your keyboard? 
 
-Remember: The point of CSV is an easy-to-write and easy-to-read format for humans first (not for machines).
+Remember: The point of comma-separated values (CSV) is an easy-to-write and easy-to-read format for humans first (not for machines).
 
 
 
@@ -131,8 +134,11 @@ Remember: The point of CSV is an easy-to-write and easy-to-read format for human
 **Wikipedia**
 
 - [Comma-separated values](http://en.wikipedia.org/wiki/Comma-separated_values)
-- [Delimiter](https://en.wikipedia.org/wiki/Delimiter) - why not space, tab(ulator), pipe, ascii 31, etc.
-- [String literal](https://en.wikipedia.org/wiki/String_literal) - (string) values with or without quotes
+- [Delimiter-separated values](https://en.wikipedia.org/wiki/Delimiter-separated_values)
+- [Delimiter](https://en.wikipedia.org/wiki/Delimiter) - why not space, tab, pipe, ascii 31 - field separator (fs), etc.
+- [String literal](https://en.wikipedia.org/wiki/String_literal) - (string) values with or without quotes; how to escape quotes, etc.
+- [Word divider](https://en.wikipedia.org/wiki/Word_divider) - scriptio continua or space, interpunct, double interpunct, etc.
+
 
 
 ## Initiatives
