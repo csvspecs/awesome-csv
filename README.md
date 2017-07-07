@@ -18,11 +18,19 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 ### Can I use \_\_ (V1.0)?
 
-**Q**: Can I use blank lines?
+**Q: Can I use blank lines?**
 
 **A**: No. No. No. In "classic" CSV you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be an blank record or a blank line.  
 
 Yes. Yes. Yes. See CSS V1.1 for a "modern" practical common sense version.
+
+
+**Q: Can I use comments?**
+
+**A**: No. No. No. In "classic" CSV you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
+
+Yes. Yes. Yes. See CSS V1.1 for a "modern" human version.
+
 
 
 ### V1.1 "Modern"
@@ -32,13 +40,73 @@ Yes. Yes. Yes. See CSS V1.1 for a "modern" practical common sense version.
 
 ### Can I use \_\_  (V1.1)?
 
-**Q**: Can I use blank lines?
+**Q: Can I use blank lines?**
 
 **A**: Yes, of course. A blank line is just a blank line. Use freely to format (beautify) your data.
 
 
+**Q: Can I use comments?**
 
-**Wikipedia Articles**
+**A**: Yes, of course. Use `#` for comments. Example:
+
+```
+
+```
+
+
+
+## Delimiter / Separator
+
+_Why use commas, commas, commas?_
+
+
+### Space
+
+Did you know? In the English (or German) language the most popular word delimiter / separator is - surprise, surprise - space.
+You're looking at spaces in action right now and right here ;-)
+
+Why not use spaces?
+
+- Spaces work great (and are the best) only if you do NOT use spaces in v a l u e s. For example, is `Austria Wien` one value or two? See?
+- If it's only one value than you need to quote it e.g. `"Austria Wien"`. 
+
+By using commas you do NOT need to quote spaces in values.
+
+
+### Tab 
+
+In the theory the tab (`/t`) separator is perfect. Values never use tabs, don't they?  So why hasn't the tab separator taken off?
+
+In practice tab separators are invisible or look like spaces and often you cannot tell if a space is a tab or not. 
+
+Thus, tab work great only and only (like space) if your values do NOT use spaces and you treat a tab like a space.
+
+
+
+### Field Separator (FS)
+
+Again in the theory the untypeable (unprintable) field separator (ASCII Code 31) is perfect. Values never use ASCII field separators.
+
+In practice if the field separator is invisible and unprintable how to do type it on your keyboard? 
+
+Remember: The point of CSV is an easy-to-write and easy-to-read format for humans first (not for machines).
+
+
+
+### Other
+
+- Pipe (`|`)
+- Semicolon (`;`)
+- Colon  (`:`)
+- Interpunct  (`·`)
+- Double Interpunct 
+- And many others
+
+
+
+## Articles
+
+**Wikipedia**
 
 - [Comma-separated values](http://en.wikipedia.org/wiki/Comma-separated_values)
 - [Delimiter](https://en.wikipedia.org/wiki/Delimiter) - why not space, tab(ulator), pipe, ascii 31, etc.
