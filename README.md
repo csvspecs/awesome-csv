@@ -12,7 +12,7 @@ A collection about the comma-separated values (CSV) world for rich structured da
 ## CSV Family
 
 
-### V1.0 "Classic"
+## CSV V1.0 "Classic" 
 
 ```
 ID,Name,Code,Area,Pop
@@ -25,26 +25,26 @@ mx,México [Mexico],MEX,1972550,112322757
 - [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
 
 
-### Can I use \_\_ (V1.0)?
+### Can I use \_\_? (V1.0)
 
 
 #### Q: Can I use blank lines?
 
 **A**: No. No. No. In "classic" CSV you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be a blank record or a blank line.  
 
-Yes. Yes. Yes. See CSS V1.1 for a "modern" practical common sense version.
+Yes. Yes. Yes. See CSV V1.1 for a "modern" practical common sense version.
 
 
 #### Q: Can I use comments?
 
 **A**: No. No. No. In "classic" CSV you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
 
-Yes. Yes. Yes. See CSS V1.1 for a "modern" human version.
+Yes. Yes. Yes. See CSV V1.1 for a "modern" human version.
 
 
 
 
-### V1.1 "Modern"
+## CSV V1.1 "Modern"
 
 ```
 #####################
@@ -61,7 +61,7 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 - [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://csvalues.github.io) - CSV evolved (for humans) - easy-to-write, easy-to-read
 
 
-### Can I use \_\_  (V1.1)?
+### Can I use \_\_ ? (V1.1)
 
 
 #### Q: Can I use blank lines?
