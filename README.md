@@ -14,13 +14,6 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 ### V1.0 "Classic"
 
-- [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
-
-
-### Can I use \_\_ (V1.0)?
-
-`example_v10.csv:`
-
 ```
 ID,Name,Code,Area,Pop
 ca,Canada,CAN,9984670,34278406
@@ -28,6 +21,11 @@ us,United States,USA,9629091,314167157
 mx,México [Mexico],MEX,1972550,112322757
 ...
 ```
+
+- [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
+
+
+### Can I use \_\_ (V1.0)?
 
 **Q: Can I use blank lines?**
 
@@ -44,14 +42,8 @@ Yes. Yes. Yes. See CSS V1.1 for a "modern" human version.
 
 
 
+
 ### V1.1 "Modern"
-
-- [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://csvalues.github.io) - CSV evolved (for humans) - easy-to-write, easy-to-read
-
-
-### Can I use \_\_  (V1.1)?
-
-`example_v11.csv:`
 
 ```
 #####################
@@ -65,7 +57,10 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 ...
 ```
 
-(Source: [world.db/north-america/countries.txt](https://github.com/openmundi/world.db/blob/master/north-america/countries.txt))
+- [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://csvalues.github.io) - CSV evolved (for humans) - easy-to-write, easy-to-read
+
+
+### Can I use \_\_  (V1.1)?
 
 
 **Q: Can I use blank lines?**
