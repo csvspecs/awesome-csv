@@ -16,7 +16,18 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 - [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
 
+
 ### Can I use \_\_ (V1.0)?
+
+*Example*
+
+```
+ID,Name,Code,Area,Pop
+ca,Canada,CAN,9984670,34278406
+us,United States,USA,9629091,314167157
+mx,México [Mexico],MEX,1972550,112322757
+...
+```
 
 **Q: Can I use blank lines?**
 
@@ -40,6 +51,23 @@ Yes. Yes. Yes. See CSS V1.1 for a "modern" human version.
 
 ### Can I use \_\_  (V1.1)?
 
+*Example*
+
+```
+#####################
+# North America
+
+# area (in sq km), pop(ulation)
+
+ca, Canada,          CAN,   9 984 670 km²,  34 278 406
+us, United States,   USA,   9 629 091 km², 314 167 157
+mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
+...
+```
+
+(Source: [world.db/north-america/countries.txt](https://github.com/openmundi/world.db/blob/master/north-america/countries.txt))
+
+
 **Q: Can I use blank lines?**
 
 **A**: Yes, of course. A blank line is just a blank line. Use freely to format (beautify) your data.
@@ -47,11 +75,7 @@ Yes. Yes. Yes. See CSS V1.1 for a "modern" human version.
 
 **Q: Can I use comments?**
 
-**A**: Yes, of course. Use `#` for comments. Example:
-
-```
-
-```
+**A**: Yes, of course. Use `#` for comments. See the example above.
 
 
 
