@@ -105,7 +105,7 @@ By using commas you do NOT need to quote spaces in values, that is, use
 
 ### Tab 
 
-In theory the tab (`/t`) separator is perfect. Values never use tabs, don't they?  So why hasn't the tab separator taken off?
+In theory the tab (`\t`) separator is perfect. Values never use tabs, don't they?  So why hasn't the tab separator taken off?
 
 In practice tab separators are invisible or look like spaces and often you cannot tell if a space is a tab or not. 
 
