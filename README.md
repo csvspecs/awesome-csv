@@ -91,10 +91,12 @@ You're looking at spaces in action right now and right here ;-)
 
 Why not use spaces?
 
-- Spaces work great (and are the best) only if you do NOT use spaces in v a l u e s. For example, is `Austria Wien` one value or two? See?
-- If it's only one value than you need to quote it e.g. `"Austria Wien"`. 
+- Spaces work great (and are the best) only if you do NOT use s p a c e s · i n · v a l u e s. 
+For example, is `United States` one value or two? See?
+- If it's only one value than you need to quote it e.g. `"United States"`. 
 
-By using commas you do NOT need to quote spaces in values.
+By using commas you do NOT need to quote spaces in values, that is, use 
+`us, United States, USA` instead of `us "United States" USA`.
 
 
 ### Tab 
@@ -103,7 +105,7 @@ In the theory the tab (`/t`) separator is perfect. Values never use tabs, don't 
 
 In practice tab separators are invisible or look like spaces and often you cannot tell if a space is a tab or not. 
 
-Thus, tab work great only and only (like space) if your values do NOT use spaces and you treat a tab like a space.
+Thus, tab works great only and only (like space) if your values do NOT use spaces and you treat a tab like a space.
 
 
 
