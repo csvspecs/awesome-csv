@@ -1,6 +1,6 @@
 
 
-# Awesome Comma-Separated Values (CSV) - What's Next?
+# Awesome Comma-Separated Values (CSV) - What's Next? - Frequently Asked Questions (F.A.Q.s)
 
 
 A collection about the comma-separated values (CSV) world for rich structured data in (plain) text
@@ -16,10 +16,25 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 - [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
 
+### Can I use \_\_ (V1.0)?
+
+**Q**: Can I use blank lines?
+
+**A**: No. No. No. In "classic" CSV you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be an blank record or a blank line.  
+
+Yes. Yes. Yes. See CSS V1.1 for a "modern" practical common sense version.
+
 
 ### V1.1 "Modern"
 
 - [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://csvalues.github.io) - CSV evolved (for humans) - easy-to-write, easy-to-read
+
+
+### Can I use \_\_  (V1.1)?
+
+**Q**: Can I use blank lines?
+
+**A**: Yes, of course. A blank line is just a blank line. Use freely to format (beautify) your data.
 
 
 
