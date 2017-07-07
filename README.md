@@ -27,14 +27,15 @@ mx,México [Mexico],MEX,1972550,112322757
 
 ### Can I use \_\_ (V1.0)?
 
-**Q: Can I use blank lines?**
+
+#### Q: Can I use blank lines?
 
 **A**: No. No. No. In "classic" CSV you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be a blank record or a blank line.  
 
 Yes. Yes. Yes. See CSS V1.1 for a "modern" practical common sense version.
 
 
-**Q: Can I use comments?**
+#### Q: Can I use comments?
 
 **A**: No. No. No. In "classic" CSV you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
 
@@ -63,12 +64,12 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 ### Can I use \_\_  (V1.1)?
 
 
-**Q: Can I use blank lines?**
+#### Q: Can I use blank lines?**
 
 **A**: Yes, of course. A blank line is just a blank line. Use freely to format (beautify) your data.
 
 
-**Q: Can I use comments?**
+#### Q: Can I use comments?**
 
 **A**: Yes, of course. Use `#` for comments. See the example above.
 
