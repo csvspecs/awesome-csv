@@ -82,6 +82,11 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 
 _Why use commas, commas, commas?_
 
+[Space](#space) •
+[Tab](#tab) •
+[Field Separator (FS)](#field-separator-fs) •
+[Other](#other)
+
 
 ### Space
 
@@ -142,6 +147,11 @@ Remember: The point of comma-separated values (CSV) is an easy-to-write and easy
 
 
 ## Initiatives
+
+[Frictionless Data](#frictionless-data) •
+[CSV on the Web](#csv-on-the-web) •
+[CSV 1.1 / CSV Next](#csv-11--csv-next)
+
 
 ### Frictionless Data 
 
