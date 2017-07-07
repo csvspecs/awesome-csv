@@ -145,6 +145,11 @@ Remember: The point of comma-separated values (CSV) is an easy-to-write and easy
 - [Word divider](https://en.wikipedia.org/wiki/Word_divider) - scriptio continua or space, interpunct, double interpunct, etc.
 
 
+**More**
+
+- [Textuality - Data File Metaformats @ The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/ch05s02.html) by Eric S. Raymond
+
+
 
 ## Initiatives
 
