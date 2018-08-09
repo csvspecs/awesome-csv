@@ -1,6 +1,6 @@
 
 
-# Awesome Comma-Separated Values (CSV) - What's Next? - Frequently Asked Questions (F.A.Q.s)
+# Awesome Comma-Separated Values (CSV) - What's Next? - Frequently Asked Questions (F.A.Q.s) - Libraries & Tools
 
 
 A collection about the comma-separated values (CSV) world for rich structured data in (plain) text
