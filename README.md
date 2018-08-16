@@ -199,6 +199,21 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 - Honey Format Library / Tool - [(Source)](https://github.com/buren/honey_format), [(Doc)](https://www.rubydoc.info/gems/honey_format/) by Jacob Burenstam  --
 Makes working with CSVs as smooth as honey. Proper objects for CSV headers and rows, convert column values, filter columns and rows, small(-ish) perfomance overhead, no dependencies other than Ruby standard library.
 
+``` ruby
+csv_string = <<~CSV
+  email,name,born,country
+  john@example.com,John,2000-03-03,SE
+  jane@example.com,Jane,1970-03-03,SE
+  chris@example.com,Chris,1980-03-03,DK
+CSV
+
+# Print all rows where born is before 1990 and country code is 'SE'
+csv = HoneyFormat::CSV.new(csv_string, type_map: { born: :date })
+csv_string = csv.to_csv(columns: %i[born country]) do |row|
+  row.country == 'SE' && row.born < Date.new(1990, 1, 1)
+end
+puts csv_string
+```
 
 - Ruby Toolbox CSV Category - [(Link)](https://www.ruby-toolbox.com/categories/CSV_Parsers)
 
