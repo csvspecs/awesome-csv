@@ -198,6 +198,7 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 - Ruby Toolbox CSV Category - [(Link)](https://www.ruby-toolbox.com/categories/CSV_Parsers)
 
+- honey_format - [(Source)](https://github.com/buren/honey_format), [(Doc)](https://www.rubydoc.info/gems/honey_format/)
 
 ### Python
 
