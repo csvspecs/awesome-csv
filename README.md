@@ -196,9 +196,12 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
   - skip_blanks option allows skipping blank lines (w/ no content)
   - skip_lines option allows skipping comments (configured via a text pattern/regex)
 
+- Honey Format Library / Tool - [(Source)](https://github.com/buren/honey_format), [(Doc)](https://www.rubydoc.info/gems/honey_format/) by Jacob Burenstam  --
+Makes working with CSVs as smooth as honey. Proper objects for CSV headers and rows, convert column values, filter columns and rows, small(-ish) perfomance overhead, no dependencies other than Ruby standard library.
+
+
 - Ruby Toolbox CSV Category - [(Link)](https://www.ruby-toolbox.com/categories/CSV_Parsers)
 
-- honey_format - [(Source)](https://github.com/buren/honey_format), [(Doc)](https://www.rubydoc.info/gems/honey_format/)
 
 ### Python
 
