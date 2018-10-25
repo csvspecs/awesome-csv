@@ -61,7 +61,8 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 ...
 ```
 
-- [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://csvalues.github.io) - CSV evolved (for humans) - easy-to-write, easy-to-read
+- [CSV 1.1 - Comma Separated (Named) Values, Version: 1.1](https://github.com/csvspecs/csv-v11) - CSV evolved (for humans) - easy-to-write, easy-to-read
+
 
 
 ### Can I use \_\_ ? (V1.1)
@@ -183,7 +184,7 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 ### CSV 1.1 / CSV Next
 
-- [CSV Next Notes](https://github.com/csvalues/csv-next) - Better Comma-Separated Values (CSV) Notes; Adding Comments, Named Values, Multi-Line Records, and More. 
+- [CSV Next Notes](https://github.com/csvspecs/csv-next) - Better Comma-Separated Values (CSV) Notes; Adding Comments, Named Values, Multi-Line Records, and More. 
 
 
 
@@ -192,9 +193,15 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 ### Ruby
 
-- Ruby Standard Library CSV  - [(Doc)](http://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html)
+- CSV Standard Library  - [(Source)](https://github.com/ruby/csv), [(Doc)](http://ruby-doc.org/stdlib/libdoc/csv/rdoc/CSV.html)
+  - [**Why the Standard Library is Broken (and How to Fix it)**](https://github.com/csvreader/docs)  - use alternative more modern better libraries  
+
+<!--
   - skip_blanks option allows skipping blank lines (w/ no content)
   - skip_lines option allows skipping comments (configured via a text pattern/regex)
+-->
+
+- CSV Reader Library -  [(Source)](https://github.com/csvreader/csvreader) - modern alternative to the broken ruby csv standard library
 
 - Honey Format Library / Tool - [(Source)](https://github.com/buren/honey_format), [(Doc)](https://www.rubydoc.info/gems/honey_format/) by Jacob Burenstam  --
 Makes working with CSVs as smooth as honey. Proper objects for CSV headers and rows, convert column values, filter columns and rows, small(-ish) perfomance overhead, no dependencies other than Ruby standard library.
@@ -238,9 +245,19 @@ web: [csvconf.com](https://csvconf.com),
 github: [csvconf](https://github.com/csvconf),
 twitter: [CSVConference](https://twitter.com/CSVConference)
 
-- [csv,conf,v3](https://csvconf.com) - 2017 - May 2+3 @ Portland, Oregon, United States
+- [csv,conf,v4](https://csvconf.com)       - 2019 - May 8+9 @ Portland, Oregon, United States
+- [csv,conf,v3](https://csvconf.com/2017/) - 2017 - May 2+3 @ Portland, Oregon, United States
 - [csv,conf,v2](https://csvconf.com/2016/) - 2016 - May 3+4 @ Berlin, Germany
 - [csv,conf,v1](https://csvconf.com/2014/) - 2014 - July 15 @ Berlin, Germany
+
+
+
+## Awesome Awesomeness
+
+_A curated list of awesome lists._
+
+- [Awesome CSV @ SecrectGeek](https://github.com/secretGeek/awesomecsv) - A curated list of awesome tools for dealing with awesome CSV 
+
 
 
 
