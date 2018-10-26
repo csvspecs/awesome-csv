@@ -11,11 +11,25 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 ## CSV Family
 
-[CSV V1.0 "Classic"](#csv-v10-classic) •
-[CSV V1.1 "Modern"](#csv-v11-modern)
+_Formats, Formats, Formats_
+
+[CSV RFC 4180 "Strict"](#csv-v10-classic) •
+[CSV v1.0 "The Right Way"](#csv-v10-classic) •
+[CSV <3 Numerics]() •
+[CSV <3 JSON]() •
+[CSV <3 YAML]() •
+[CSV v1.1 "Modern"](#csv-v11-modern)
 
 
-## CSV V1.0 "Classic" 
+### Related
+
+- [CSV with YAML Front Matter Meta Data Block (CSVY)](http://csvy.org)
+- [CSV with Attribute-Relation File Format (ARFF](https://waikato.github.io/weka-wiki/arff/) 
+
+
+
+
+## CSV RFC 4180 "Strict" 
 
 ```
 ID,Name,Code,Area,Pop
@@ -27,22 +41,41 @@ mx,México [Mexico],MEX,1972550,112322757
 
 - [IETF RFC #4180](http://tools.ietf.org/rfc/rfc4180.txt) - Common Format and MIME Type for Comma-Separated Values (CSV) Files - by Y. Shafranovich (SolidMatrix Technologies, Inc.), October 2005
 
+### Why the CSV RFC 4180 "Strict" Memo Is Dangerous?
 
-### Can I use \_\_? (V1.0)
+People and (simplistic) CSV parser writers (and fanatics) use it to claim that it is the ultimate (and only) CSV format
+and use it to end all discussions if the code break when you add a space before a quote or mixed quotes and so on.
+It's way too simplistic (no spaces, no comments, no blank lines, no semicolon for separator, no modern two-byte characters, and so on).
+
+Next time someone bring ups:
+
+> Have you read the [strict] RFC 4180 [CSV format memo]? The quoting rules are in there.
+
+Why not ask back: Have you read it? :-) Let's start at the beginning (together):
+
+**This memo provides information for the internet community. It does
+not specify an internet standard of any kind. It does
+not specify an internet standard of any kind. It does
+not specify an internet standard of any kind.**
+
+
+
+
+### Can I use \_\_? (RFC 4180 "Strict")
 
 
 #### Q: Can I use blank lines?
 
-**A**: No. No. No. In "classic" CSV you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be a blank record or a blank line.  
+**A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be a blank record or a blank line.  
 
-Yes. Yes. Yes. See CSV V1.1 for a "modern" practical common sense version.
+Yes. Yes. Yes. See CSV 1.0 or CSV V1.1 for "modern" practical common sense versions.
 
 
 #### Q: Can I use comments?
 
-**A**: No. No. No. In "classic" CSV you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
+**A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
 
-Yes. Yes. Yes. See CSV V1.1 for a "modern" human version.
+Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
 
 
 
