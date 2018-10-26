@@ -402,7 +402,7 @@ puts csv_string
 
 ### JavaScript
 
-- csv-parse (for Node.js) - [(Doc)](https://csv.js.org)
+- csv-parse (for Node.js) - [(Doc)](https://csv.js.org), [(Source)](https://github.com/adaltas/node-csv)
 
 ### Racket
 
