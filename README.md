@@ -150,14 +150,15 @@ Staatliches Hofbräuhaus München,          München,   Hofbräu Oktoberfestbier
 
 CSV ❤ Numerics Format - Comma-Separated Values (CSV) Line-by-Line Records with Auto-Converted Numerics (Float Numbers) Encoding Rules - A Modern (Simple) Tabular Data Format incl. Numbers, Comments and More
 
-See <https://github.com/csvspecs/csv-numerics>
+See [`csvspecs/csv-numerics` »](https://github.com/csvspecs/csv-numerics)
+
 
 
 ## CSV <3 JSON
 
 CSV ❤ JSON Format - Comma-Separated Values (CSV) Line-by-Line Records with JSON Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More
 
-See <https://github.com/csvspecs/csv-json>
+See [`csvspecs/csv-json` »](https://github.com/csvspecs/csv-json)
 
 Examples:
 
@@ -184,7 +185,7 @@ or
 
 CSV ❤ YAML Format - Comma-Separated Values (CSV) Line-by-Line Records with YAML Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More
 
-See <https://github.com/csvspecs/csv-yaml>
+See [`csvspecs/csv-yaml` »](https://github.com/csvspecs/csv-yaml)
 
 Examples:
 
@@ -387,11 +388,31 @@ puts csv_string
 
 ### Python
 
-- Python Standard Library CSV  - [(Doc)](http://docs.python.org/3/library/csv.html)
+- CSV Standard Library - [(Doc)](http://docs.python.org/3/library/csv.html)
 
-- csvkit - [(Source)](https://github.com/onyxfish/csvkit), [(Doc)](http://csvkit.readthedocs.org)
+- csvkit - [(Source)](https://github.com/wireservice/csvkit), [(Doc)](http://csvkit.readthedocs.org)
+
+- Panda read_csv - [(Doc)](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)
 
 
+### Perl
+
+- Text::CSV - [(Doc)](https://metacpan.org/pod/Text::CSV)
+
+
+### JavaScript
+
+- csv-parse (for Node.js) - [(Doc)](https://csv.js.org)
+
+### Racket
+
+- csv-reading - [(Doc)](https://docs.racket-lang.org/csv-reading)
+
+
+### Rust
+
+- csv - [(Doc)](https://docs.rs/csv)
+ 
 
 
 ## Conferences
