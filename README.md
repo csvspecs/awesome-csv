@@ -68,7 +68,7 @@ not specify an internet standard of any kind.**
 
 **A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use blank lines. Why? Blank lines are "ambiguous". Might be a blank record or a blank line.  
 
-Yes. Yes. Yes. See CSV 1.0 or CSV V1.1 for "modern" practical common sense versions.
+Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" practical common sense versions.
 
 
 #### Q: Can I use comments?
