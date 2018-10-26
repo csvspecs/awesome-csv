@@ -66,16 +66,75 @@ not specify an internet standard of any kind.**
 
 #### Q: Can I use blank lines?
 
-**A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use blank lines. Why? Blank lines are "ambiguous". Might be a blank record or a blank line.  
+**A**: No. No. No. 
+In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use blank lines. Why? Blank lines are "ambiguous". Might be a blank record or a blank line.  
 
 Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" practical common sense versions.
 
 
 #### Q: Can I use comments?
 
-**A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
+**A**: No. No. No. 
+In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use comments. Why? The original CSV format was intended just for machine reading and not for human mere mortals.
 
 Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
+
+
+#### Q: Can I use "literal" geo coordinates e.g. `48°51'24"N`?
+
+**A**: No. No. No. 
+In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use "literal"
+double quotes (`"`) e.g. `48°51'24"N` - you MUST double quote 
+the geo coordinates and double up the double quote (`""`)
+e.g. `"48°51'24""N"`. Example:
+
+```
+New York City,"40°42'46""N","74°00'21""W"
+Paris,"48°51'24""N","2°21'03""E"
+```
+
+Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
+Example:
+
+```
+New York City, 40°42'46"N, 74°00'21"W
+Paris,         48°51'24"N, 2°21'03"E
+```
+
+
+#### Q: Can I use "unix-style" escaping with backslashes (e.g. `\"` for `""`)? 
+
+**A**: No. No. No. 
+In the "simplistic" CSV RFC 4180 "Strict" format you MUST double up 
+the double quote (`""`)  inside double quotes. Period. Example:
+
+```
+1,"Hamlet says, ""Seems,"" madam! Nay it is; I know not ""seems."""
+```
+
+Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
+Use as you like it. Example:
+
+```
+1,"Hamlet says, \"Seems,\" madam! Nay it is; I know not \"seems.\""
+```
+
+
+#### Q: Can I use mixed quotes (single `'...'` or double quotes `"..."`)?
+
+**A**: No. No. No. 
+In the "simplistic" CSV RFC 4180 "Strict" format you MUST always use
+double quotes (`""`) and double up the double quote inside double quotes. Period.
+
+Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
+Use as you like it. Example:
+
+```
+1, "Hamlet says, 'Seems,' madam! Nay it is; I know not 'seems.'"
+2, 'Hamlet says, "Seems," madam! Nay it is; I know not "seems."'
+```
+
+
 
 
 
