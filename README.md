@@ -13,7 +13,7 @@ A collection about the comma-separated values (CSV) world for rich structured da
 
 _Formats, Formats, Formats_
 
-[CSV RFC 4180 "Strict"](#csv-v10-classic) •
+[CSV RFC 4180 "Strict"](#csv-rfc-4180-strict) •
 [CSV v1.0 "The Right Way"](#csv-v10-classic) •
 [CSV <3 Numerics]() •
 [CSV <3 JSON]() •
@@ -79,8 +79,135 @@ Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
 
 
 
+## CSV v1.0 "The Right Way"
 
-## CSV V1.1 "Modern"
+Q: What's CSV the right way? What best practices can I use?  
+
+Use best practices out-of-the-box with zero-configuration.
+Do you know how to skip blank lines or how to add `#` single-line comments?
+Or how to trim leading and trailing spaces?  No worries. It's turned on by default.
+
+Yes, you can. Use
+
+```
+#######
+# try with some comments
+#   and blank lines even before header (first row)
+
+Brewery,City,Name,Abv
+Andechser Klosterbrauerei,Andechs,Doppelbock Dunkel,7%
+Augustiner Bräu München,München,Edelstoff,5.6%
+
+Bayerische Staatsbrauerei Weihenstephan,  Freising,  Hefe Weissbier,   5.4%
+Brauerei Spezial,                         Bamberg,   Rauchbier Märzen, 5.1%
+Hacker-Pschorr Bräu,                      München,   Münchner Dunkel,  5.0%
+Staatliches Hofbräuhaus München,          München,   Hofbräu Oktoberfestbier, 6.3%
+```
+
+instead of strict "classic"
+(no blank lines, no comments, no leading and trailing spaces, etc.):
+
+```
+Brewery,City,Name,Abv
+Andechser Klosterbrauerei,Andechs,Doppelbock Dunkel,7%
+Augustiner Bräu München,München,Edelstoff,5.6%
+Bayerische Staatsbrauerei Weihenstephan,Freising,Hefe Weissbier,5.4%
+Brauerei Spezial,Bamberg,Rauchbier Märzen,5.1%
+Hacker-Pschorr Bräu,München,Münchner Dunkel,5.0%
+Staatliches Hofbräuhaus München,München,Hofbräu Oktoberfestbier,6.3%
+```
+
+
+Or use the ARFF (attribute-relation file format)-like alternative style
+with `%` for comments and `@`-directives
+for "meta data" in the header (before any records):
+
+```
+%%%%%%%%%%%%%%%%%%
+% try with some comments
+%   and blank lines even before @-directives in header
+
+@RELATION Beer
+
+@ATTRIBUTE Brewery
+@ATTRIBUTE City
+@ATTRIBUTE Name
+@ATTRIBUTE Abv
+
+@DATA
+Andechser Klosterbrauerei,Andechs,Doppelbock Dunkel,7%
+Augustiner Bräu München,München,Edelstoff,5.6%
+
+Bayerische Staatsbrauerei Weihenstephan,  Freising,  Hefe Weissbier,   5.4%
+Brauerei Spezial,                         Bamberg,   Rauchbier Märzen, 5.1%
+Hacker-Pschorr Bräu,                      München,   Münchner Dunkel,  5.0%
+Staatliches Hofbräuhaus München,          München,   Hofbräu Oktoberfestbier, 6.3%
+```
+
+
+
+## CSV <3 Numerics
+
+CSV ❤ Numerics Format - Comma-Separated Values (CSV) Line-by-Line Records with Auto-Converted Numerics (Float Numbers) Encoding Rules - A Modern (Simple) Tabular Data Format incl. Numbers, Comments and More
+
+See <https://github.com/csvspecs/csv-numerics>
+
+
+## CSV <3 JSON
+
+CSV ❤ JSON Format - Comma-Separated Values (CSV) Line-by-Line Records with JSON Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More
+
+See <https://github.com/csvspecs/csv-json>
+
+Examples:
+
+```
+# "Vanilla" CSV <3 JSON
+
+1,"John","12 Totem Rd. Aspen",true
+2,"Bob",null,false
+3,"Sue","Bigsby, 345 Carnival, WA 23009",false
+```
+
+or
+
+```
+# "Vanilla" CSV <3 JSON (Pretty Printed)
+
+1, "John", "12 Totem Rd. Aspen",            true
+2, "Bob",  null,                            false
+3, "Sue", "Bigsby, 345 Carnival, WA 23009", false
+```
+
+
+## CSV <3 YAML
+
+CSV ❤ YAML Format - Comma-Separated Values (CSV) Line-by-Line Records with YAML Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More
+
+See <https://github.com/csvspecs/csv-yaml>
+
+Examples:
+
+```
+# "Vanilla" CSV <3 YAML
+
+1,John,12 Totem Rd. Aspen,true
+2,Bob,null,false
+3,Sue,"Bigsby, 345 Carnival, WA 23009",false
+```
+
+or
+
+```
+# "Vanilla" CSV <3 YAML (Pretty Printed)
+
+1, John, 12 Totem Rd. Aspen,               true
+2, Bob,  null,                             false
+3, Sue,  "Bigsby, 345 Carnival, WA 23009", false
+```
+
+
+## CSV v1.1 "Modern"
 
 ```
 #####################
