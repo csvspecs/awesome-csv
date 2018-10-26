@@ -256,7 +256,7 @@ twitter: [CSVConference](https://twitter.com/CSVConference)
 
 _A curated list of awesome lists._
 
-- [Awesome CSV @ SecrectGeek](https://github.com/secretGeek/awesomecsv) - A curated list of awesome tools for dealing with awesome CSV 
+- [Awesome CSV @ SecrectGeek](https://github.com/secretGeek/awesomecsv) - An awesome list of tools for dealing with CSV by Leon Bambrick
 
 
 
