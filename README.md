@@ -23,6 +23,7 @@ _Formats, Formats, Formats_
 
 ### Related
 
+- [CSV with (Inline) Meta Data Formats](https://github.com/csvspecs/csv-meta) - CSV in CSV, Attribute-Relation "Classic", Attribute-Relation "Inline", Front Matter in YAML and More
 - [CSV with YAML Front Matter Meta Data Block (CSVY)](http://csvy.org)
 - [CSV with Attribute-Relation File Format (ARFF)](https://waikato.github.io/weka-wiki/arff/) 
 
