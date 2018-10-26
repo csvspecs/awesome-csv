@@ -116,11 +116,11 @@ Yes. Yes. Yes. See CSV v1.0 or CSV v1.1 for "modern" human versions.
 Use as you like it. Example:
 
 ```
-1,"Hamlet says, \"Seems,\" madam! Nay it is; I know not \"seems.\""
+1, "Hamlet says, \"Seems,\" madam! Nay it is; I know not \"seems.\""
 ```
 
 
-#### Q: Can I use mixed quotes (single `'...'` or double quotes `"..."`)?
+#### Q: Can I use mixed quotes (that is, single `'...'` or double quotes `"..."`)?
 
 **A**: No. No. No. 
 In the "simplistic" CSV RFC 4180 "Strict" format you MUST always use
