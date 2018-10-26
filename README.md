@@ -44,7 +44,7 @@ mx,México [Mexico],MEX,1972550,112322757
 ### Why the CSV RFC 4180 "Strict" Memo Is Dangerous?
 
 People and (simplistic) CSV parser writers (and fanatics) use it to claim that it is the ultimate (and only) CSV format
-and use it to end all discussions if the code break when you add a space before a quote or mixed quotes and so on.
+and use it to end all discussions if the code breaks when you add a space before a quote or mixed quotes and so on.
 It's way too simplistic (no spaces, no comments, no blank lines, no semicolon for separator, no modern two-byte characters, and so on).
 
 Next time someone bring ups:
@@ -66,7 +66,7 @@ not specify an internet standard of any kind.**
 
 #### Q: Can I use blank lines?
 
-**A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use blank lines. Why? Blank lines are "ambigious". Might be a blank record or a blank line.  
+**A**: No. No. No. In the "simplistic" CSV RFC 4180 "Strict" format you CANNOT use blank lines. Why? Blank lines are "ambiguous". Might be a blank record or a blank line.  
 
 Yes. Yes. Yes. See CSV 1.0 or CSV V1.1 for "modern" practical common sense versions.
 
