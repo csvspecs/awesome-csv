@@ -14,10 +14,10 @@ A collection about the comma-separated values (CSV) world for rich structured da
 _Formats, Formats, Formats_
 
 [CSV RFC 4180 "Strict"](#csv-rfc-4180-strict) •
-[CSV v1.0 "The Right Way"](#csv-v10-classic) •
-[CSV <3 Numerics]() •
-[CSV <3 JSON]() •
-[CSV <3 YAML]() •
+[CSV v1.0 "The Right Way"](#csv-v10-the-right-way) •
+[CSV <3 Numerics](#csv-3-numerics) •
+[CSV <3 JSON](#csv-3-json) •
+[CSV <3 YAML](#csv-3-yaml) •
 [CSV v1.1 "Modern"](#csv-v11-modern)
 
 
@@ -225,7 +225,7 @@ mx, México [Mexico], MEX,   1 972 550 km², 112 322 757
 
 
 
-### Can I use \_\_ ? (V1.1)
+### Can I use \_\_ ? (v1.1)
 
 
 #### Q: Can I use blank lines?
@@ -342,7 +342,7 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 
 
-### CSV 1.1 / CSV Next
+### CSV v1.1 / CSV Next
 
 - [CSV Next Notes](https://github.com/csvspecs/csv-next) - Better Comma-Separated Values (CSV) Notes; Adding Comments, Named Values, Multi-Line Records, and More. 
 
