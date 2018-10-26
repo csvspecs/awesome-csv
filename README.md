@@ -24,7 +24,7 @@ _Formats, Formats, Formats_
 ### Related
 
 - [CSV with YAML Front Matter Meta Data Block (CSVY)](http://csvy.org)
-- [CSV with Attribute-Relation File Format (ARFF](https://waikato.github.io/weka-wiki/arff/) 
+- [CSV with Attribute-Relation File Format (ARFF)](https://waikato.github.io/weka-wiki/arff/) 
 
 
 
@@ -158,8 +158,6 @@ See [`csvspecs/csv-numerics` »](https://github.com/csvspecs/csv-numerics)
 
 CSV ❤ JSON Format - Comma-Separated Values (CSV) Line-by-Line Records with JSON Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More
 
-See [`csvspecs/csv-json` »](https://github.com/csvspecs/csv-json)
-
 Examples:
 
 ```
@@ -180,12 +178,12 @@ or
 3, "Sue", "Bigsby, 345 Carnival, WA 23009", false
 ```
 
+See [`csvspecs/csv-json` »](https://github.com/csvspecs/csv-json)
+
 
 ## CSV <3 YAML
 
 CSV ❤ YAML Format - Comma-Separated Values (CSV) Line-by-Line Records with YAML Encoding Rules - A Modern (Simple) Tabular Data Format incl. Arrays, Numbers, Booleans, Nulls, Nested Structures, Comments and More
-
-See [`csvspecs/csv-yaml` »](https://github.com/csvspecs/csv-yaml)
 
 Examples:
 
@@ -206,6 +204,8 @@ or
 2, Bob,  null,                             false
 3, Sue,  "Bigsby, 345 Carnival, WA 23009", false
 ```
+
+See [`csvspecs/csv-yaml` »](https://github.com/csvspecs/csv-yaml)
 
 
 ## CSV v1.1 "Modern"
