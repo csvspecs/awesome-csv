@@ -512,6 +512,8 @@ puts csv_string
 ### JavaScript
 
 - csv-parse (for Node.js) - [(Doc)](https://csv.js.org), [(Source)](https://github.com/adaltas/node-csv)
+- d3-dsv - [(Source)](https://github.com/d3/d3-dsv)
+- papaparse - [(Doc)](https://www.papaparse.com/), [(Source)](https://github.com/mholt/PapaParse)
 
 ### Racket
 
