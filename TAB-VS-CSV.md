@@ -78,11 +78,11 @@ A simple precaution when working with these files is to run a CSV-to-TAB convert
 prior to other processing steps.
 
 
-(Source: Adapted from [Comparing TSV and CSV formats](https://github.com/eBay/tsv-utils/blob/master/docs/comparing-tsv-and-csv.md))
+(Source: Adapted from [Comparing TAB and CSV formats](https://github.com/eBay/tsv-utils/blob/master/docs/comparing-tsv-and-csv.md))
 
 
 
 ## More
 
-- [brendano/tsvutils: The philosophy of tsvutils](https://github.com/brendano/tsvutils#the-philosophy-of-tsvutils) - Brendan O'Connor's discussion of the rationale for using TSV format in his open source toolkit.
+- [brendano/tsvutils: The philosophy of tsvutils](https://github.com/brendano/tsvutils#the-philosophy-of-tsvutils) - Brendan O'Connor's discussion of the rationale for using TAB format in his open source toolkit.
 
