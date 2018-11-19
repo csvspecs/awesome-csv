@@ -84,5 +84,5 @@ prior to other processing steps.
 
 ## More
 
-- [brendano/tsvutils: The philosophy of tsvutils](https://github.com/brendano/tsvutils#the-philosophy-of-tsvutils) - Brendan O'Connor's discussion of the rationale for using TAB format in his open source toolkit.
+- [The philosophy of tabutils - Brendan O'Connor's discussion of the rationale for using TAB format in his open source toolkit](https://github.com/brendano/tsvutils#the-philosophy-of-tsvutils) 
 
