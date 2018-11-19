@@ -26,7 +26,7 @@ Records can be read using the typical `readline` routines.
 The fields in each record can be found using a `split` or `splitter` routine available in most programming languages. 
 No special parser is needed. This is much more reliable. It is also faster, no CPU time is used parsing the escape syntax.
 
-This makes TAB format well suited for the large tabular data sets common in data mining and machine learning environments. 
+This makes TAB format well suited for the large tabular datasets common in data mining and machine learning environments. 
 These datasets rarely need tab and newline characters in the fields.
 
 The most common CSV escape format uses quotes (`"`) to enclose fields with / containing (comma) separators. 
@@ -66,7 +66,7 @@ ghi→Say "hello, world!"→jkl
 ```
 
 The similarity between TAB and CSV can lead to confusion about which tools are appropriate. 
-Furthering this confusion, it is somewhat common to have data files using comma as the field separator, 
+Furthering this confusion, it is somewhat common to have datafiles using comma as the field separator, 
 but without comma, quote, or newlines in the data. 
 No CSV escapes are needed in these files, with the implication that traditional Unix tools 
 like `cut` and `awk` can be used to process these files. 
