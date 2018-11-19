@@ -29,7 +29,7 @@ No special parser is needed. This is much more reliable. It is also faster, no C
 This makes TAB format well suited for the large tabular datasets common in data mining and machine learning environments. 
 These datasets rarely need tab and newline characters in the fields.
 
-The most common CSV escape format uses quotes (`"`) to enclose fields with / containing (comma) separators. 
+The most common CSV escape format uses quotes (`"..."`) to enclose fields with / containing (comma) separators. 
 Quotes must also be escaped, this is done by using a pair of quotes (`""`) to represent a "literal" quote. 
 Consider the data in this table:
 
