@@ -30,7 +30,7 @@ This makes TAB format well suited for the large tabular datasets common in data 
 These datasets rarely need tab and newline characters in the fields.
 
 The most common CSV escape format uses quotes (`"..."`) to enclose fields with / containing (comma) separators. 
-Quotes must also be escaped, this is done by using a pair of quotes (`""`) to represent a "literal" quote. 
+Quotes must also be escaped, this is done by using a pair of quotes (`""`) to represent a "literal" quote (`"`) inside quotes. 
 Consider the data in this table:
 
 | Field 1 | Field 2              | Field 3 |
