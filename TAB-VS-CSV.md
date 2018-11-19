@@ -5,8 +5,8 @@
 ## Comparing TAB and CSV formats
 
 The differences between TAB and CSV formats can be confusing. 
-The obvious distinction is the default field separator: TAB uses TAB, 
-CSV uses comma. Both use newline as the record separator.
+The obvious distinction is the default field separator: TAB uses TAB (`→`), 
+CSV uses comma (`,`). Both use newline as the record separator.
 
 
 By itself, having different default field separators is not especially significant. 
