@@ -81,8 +81,24 @@ prior to other processing steps.
 (Source: Adapted from [Comparing TAB and CSV formats](https://github.com/eBay/tsv-utils/blob/master/docs/comparing-tsv-and-csv.md))
 
 
+## The philosophy of TAB (command line utils)
 
-## More
 
-- [The philosophy of tabutils - Brendan O'Connor's discussion of the rationale for using TAB format in his open source toolkit](https://github.com/brendano/tsvutils#the-philosophy-of-tsvutils) 
+There are many data processing and analysis situations where data consists of tables.
+A "table" is a list of flat records each with the same set of named attributes, where it's easy to manipulate a particular attribute across all records -- a "column".  The main data structures in SQL, R, and Excel are tables.
 
+TAB-with-headers sits in a sweet spot on the spectrum of data format complexity.
+
+- A more complex alternative is to encode in arbitrarily nested structures (XML, JSON).  These have greater representational capacity, but are less convenient for data analysis.  Since they can have high structural complexity, it's often error-prone to use them -- ad-hoc querying is generally difficult.  Furthermore, it's wasteful of space to repeat key names over and over if all records are known to have the same set of keys.  Finally, when doing data analysis, especially statistical analysis, you want to turn columns into vectors, which presupposes a flatter, more table-like structure.
+- A simpler alternative is a table with positional, un-named columns.  The main weakness is that for more than several columns, it's hard to remember which column is which.  Named columns improve maintainability.
+
+But: SQL databases and Excel spreadsheets are often inconvenient data management environments compared to the filesystem on the unix commandline.  Unfortunately, the most common file format for tables is CSV, which is complex and has several incompatible versions.  It plays only moderately nicely with the unix commandline, which is the best ad-hoc processing tool for filesystem data.  Often the only correct way to handle CSV is to use a parsing library, but it's inconvenient to fire up a python/perl/ruby session just to do simple sanity checks and casually inspect data.
+
+To balance these needs, so far I've found that TAB-with-headers is the most convenient canonical format for table data in the filesystem/commandline environment, or at least the lingua franca in shell pipelines.  These utilities are just a little bit of glue to make TAB play nicely with CSV, Excel, MySQL, and Unix tools.  Interfaces in and out of other table-centric environments could easily be added.
+
+On the philosophy of having NO escaping or special data value conventions: If you want those things in your data, make up your own convention (like backslash escaping, URL escaping, or whatever) and have your application be aware of it.  Our philosophy is, a data processing utility should ignore that stuff in order to have safe and predictable behavior.  I've seen too many bugs because some intermediate program imposed a special meaning on "NA" or "\N" or "NULL", etc., when really a program further downstream should have had sole responsibility for this interpretation.
+
+
+(Source: Adapted from [The philosophy of tab (command line utils) - Brendan O'Connor's discussion of the rationale for using TAB format in his open source toolkit](https://github.com/brendano/tsvutils#the-philosophy-of-tsvutils))
+
+ 
