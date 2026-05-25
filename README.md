@@ -523,8 +523,12 @@ puts csv_string
 ### Rust
 
 - csv - [(Doc)](https://docs.rs/csv)
- 
 
+
+### Services / Embed
+
+- WeTransform - [(Doc)](https://www.wetransform.com), [(npm)](https://www.npmjs.com/package/@wetransform/core) - Embeddable AI file importer. Drop-in modal or iframe for B2B SaaS, customers upload CSV (or Excel, PDF, XML, JSON), the AI maps columns to your schema and validates, you receive clean data via API or webhook.
+  
 
 ## Conferences
 
