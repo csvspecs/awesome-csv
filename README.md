@@ -458,9 +458,9 @@ github: [w3c/csvw](https://github.com/w3c/csvw)
 
 
 
-## Libraries & Tools & Services
+## Libraries, Tools, Services, & More
 
-see [SERVICES.md](SERVICES.md)
+see [SERVICES.md »](SERVICES.md)
 
 
 
