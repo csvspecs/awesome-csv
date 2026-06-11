@@ -54,6 +54,7 @@ puts csv_string
 ### JavaScript
 
 - csv-parse (for Node.js) - [(Doc)](https://csv.js.org), [(Source)](https://github.com/adaltas/node-csv)
+- csvtd-parser - [(Source)](https://github.com/OSP-Engineer/csvtd-parser) - zero-dependency, quote-correct parser with conservative delimiter auto-detection (comma stays comma unless another delimiter cleanly wins); runs in Node, the browser and Web Workers
 - d3-dsv - [(Source)](https://github.com/d3/d3-dsv)
 - papaparse - [(Doc)](https://www.papaparse.com/), [(Source)](https://github.com/mholt/PapaParse)
 
@@ -70,6 +71,8 @@ puts csv_string
 ### Services / Embed
 
 - WeTransform - [(Doc)](https://www.wetransform.com), [(npm)](https://www.npmjs.com/package/@wetransform/core) - Embeddable AI file importer. Drop-in modal or iframe for B2B SaaS, customers upload CSV (or Excel, PDF, XML, JSON), the AI maps columns to your schema and validates, you receive clean data via API or webhook.
+
+- csvtodashboard - [(Link)](https://csvtodashboard.com) - free browser-based CSV toolkit: edit (up to 1M rows), convert (JSON/SQL/Excel/YAML/Parquet and more), validate, dedupe, join two files, query with SQL, and build dashboards. 100% client-side - no signup, no upload, files never leave the browser. Also offers [CC0 sample CSV datasets](https://csvtodashboard.com/sample-csv-files) for teaching and testing.
 
 
 
