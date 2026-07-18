@@ -74,5 +74,6 @@ puts csv_string
 
 - csvtodashboard - [(Link)](https://csvtodashboard.com) - free browser-based CSV toolkit: edit (up to 1M rows), convert (JSON/SQL/Excel/YAML/Parquet and more), validate, dedupe, join two files, query with SQL, and build dashboards. 100% client-side - no signup, no upload, files never leave the browser. Also offers [CC0 sample CSV datasets](https://csvtodashboard.com/sample-csv-files) for teaching and testing.
 
+- Excel to Markdown - [(Link)](https://exceltomd.com/csv-to-markdown) - free browser-local converter that turns CSV files into Markdown tables. No signup or server upload; it also provides header and column-alignment controls before copy or download.
 
 
