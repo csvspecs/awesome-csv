@@ -76,4 +76,6 @@ puts csv_string
 
 - Excel to Markdown - [(Link)](https://exceltomd.com/csv-to-markdown) - free browser-local converter that turns CSV files into Markdown tables. No signup or server upload; it also provides header and column-alignment controls before copy or download.
 
+- Nutilz CSV/JSON/XML Converter - [(Link)](https://nutilz.com/csv-json-xml-converter) - free online converter between CSV, JSON, and XML, all six directions. Preserves XML attributes (as `@`-prefixed fields) and flattens nested structures into CSV cells; supports custom CSV delimiters. Conversion runs server-side for accurate parsing, no signup, nothing logged or stored.
+
 
