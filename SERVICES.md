@@ -78,6 +78,4 @@ puts csv_string
 
 - CSV / JSON / XML Converter - [(Link)](https://nutilz.com/csv-json-xml-converter) - free tool that converts between CSV, JSON, and XML in any direction. No signup; files are processed in memory and discarded immediately, never stored or logged.
 
-
-
 - Random CSV Data Generator - [(Link)](https://alltoolsverse.com/tools/generate-random-csv/) - free browser-local generator for creating numeric CSV test datasets with configurable row and column counts. No signup or upload; data is generated locally in the browser and can be copied for testing spreadsheets, databases, and import workflows.
