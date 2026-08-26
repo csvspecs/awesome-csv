@@ -55,6 +55,7 @@ puts csv_string
 
 - csv-parse (for Node.js) - [(Doc)](https://csv.js.org), [(Source)](https://github.com/adaltas/node-csv)
 - csvtd-parser - [(Source)](https://github.com/OSP-Engineer/csvtd-parser) - zero-dependency, quote-correct parser with conservative delimiter auto-detection (comma stays comma unless another delimiter cleanly wins); runs in Node, the browser and Web Workers
+- csv-cleanroom - [(Source)](https://github.com/sdxiaomage/excel-automation-demo) - zero-dependency Node.js CSV cleanup tool for merging, deduplication, normalization, lookup joins, exception reports, and reconciliation
 - d3-dsv - [(Source)](https://github.com/d3/d3-dsv)
 - papaparse - [(Doc)](https://www.papaparse.com/), [(Source)](https://github.com/mholt/PapaParse)
 
