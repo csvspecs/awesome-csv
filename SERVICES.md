@@ -70,6 +70,7 @@ puts csv_string
 
 ### Services / Embed
 
+- Instant Data Converter - [(Link)](https://instant-data-converter.vercel.app) - free in-browser converter between CSV, TSV, JSON and JSONL, plus line text tools (sort, dedupe, case converter). No signup; 100% client-side.
 - WeTransform - [(Doc)](https://www.wetransform.com), [(npm)](https://www.npmjs.com/package/@wetransform/core) - Embeddable AI file importer. Drop-in modal or iframe for B2B SaaS, customers upload CSV (or Excel, PDF, XML, JSON), the AI maps columns to your schema and validates, you receive clean data via API or webhook.
 
 - csvtodashboard - [(Link)](https://csvtodashboard.com) - free browser-based CSV toolkit: edit (up to 1M rows), convert (JSON/SQL/Excel/YAML/Parquet and more), validate, dedupe, join two files, query with SQL, and build dashboards. 100% client-side - no signup, no upload, files never leave the browser. Also offers [CC0 sample CSV datasets](https://csvtodashboard.com/sample-csv-files) for teaching and testing.
