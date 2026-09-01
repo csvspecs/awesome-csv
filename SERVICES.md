@@ -80,3 +80,4 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- CSV SafeCheck - [(Link)](https://csv-safecheck.pages.dev/) - free browser-local preflight checker for Shopify product CSVs. Finds import-blocking schema and data errors, explains exact rows and fields, and downloads deterministic safe fixes with no signup or file upload.
