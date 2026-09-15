@@ -39,6 +39,8 @@ puts csv_string
 
 ### Python
 
+- CSV Cleaner Pro - [(Link)](https://rngbubba.github.io/mr-bubba-store/csv-cleaner-pro.html) - one-time personal-use Python script for repeatable CSV and Excel cleanup, including deduplication, normalization, and a cleaning report.
+
 - CSV Standard Library - [(Doc)](http://docs.python.org/3/library/csv.html)
 
 - csvkit - [(Source)](https://github.com/wireservice/csvkit), [(Doc)](http://csvkit.readthedocs.org)
