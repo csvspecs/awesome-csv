@@ -74,6 +74,8 @@ puts csv_string
 
 - csvtodashboard - [(Link)](https://csvtodashboard.com) - free browser-based CSV toolkit: edit (up to 1M rows), convert (JSON/SQL/Excel/YAML/Parquet and more), validate, dedupe, join two files, query with SQL, and build dashboards. 100% client-side - no signup, no upload, files never leave the browser. Also offers [CC0 sample CSV datasets](https://csvtodashboard.com/sample-csv-files) for teaching and testing.
 
+- PayoutSift - [(Product)](https://liutingqiu.github.io/payoutsift/), [(Demo)](https://github.com/liutingqiu/payoutsift/releases/latest), [(Source)](https://github.com/liutingqiu/payoutsift) - USD 19 one-time commercial local Python tool that reconciles transaction, processor-payout, and bank-deposit CSV exports into HTML, JSON, and CSV review outputs. No uploads or signup.
+
 - Excel to Markdown - [(Link)](https://exceltomd.com/csv-to-markdown) - free browser-local converter that turns CSV files into Markdown tables. No signup or server upload; it also provides header and column-alignment controls before copy or download.
 
 - CSV / JSON / XML Converter - [(Link)](https://nutilz.com/csv-json-xml-converter) - free tool that converts between CSV, JSON, and XML in any direction. No signup; files are processed in memory and discarded immediately, never stored or logged.
