@@ -80,3 +80,5 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- Schedule File Converter - [(Link)](https://thepmtoolbox.com/tools/schedule-file-converter) - free browser-local converter between CSV, Microsoft Project XML and Primavera P6 XER project schedules. Reads and writes entirely in the browser with no signup and no upload, and loads its own sample file to try.
+
