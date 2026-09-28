@@ -419,6 +419,7 @@ Remember: The point of comma-separated values (CSV) is an easy-to-write and easy
 **More**
 
 - [Textuality - Data File Metaformats @ The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/ch05s02.html) by Eric S. Raymond
+- [How to Clean a Messy CSV File (Free Step-by-Step Guide)](https://testies1234321-afk.github.io/gch-services/guides/clean-messy-csv.html?src=awesomelist2)
 
 
 
