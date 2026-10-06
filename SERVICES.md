@@ -79,4 +79,5 @@ puts csv_string
 - CSV / JSON / XML Converter - [(Link)](https://nutilz.com/csv-json-xml-converter) - free tool that converts between CSV, JSON, and XML in any direction. No signup; files are processed in memory and discarded immediately, never stored or logged.
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
+- BestJSON JSON to CSV - [(Link)](https://bestjson.com/json-to-csv) - free browser-local JSON-to-CSV converter with record-path selection, column ordering and nested-field flattening. No signup or input upload.
 
