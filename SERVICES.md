@@ -79,4 +79,5 @@ puts csv_string
 - CSV / JSON / XML Converter - [(Link)](https://nutilz.com/csv-json-xml-converter) - free tool that converts between CSV, JSON, and XML in any direction. No signup; files are processed in memory and discarded immediately, never stored or logged.
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
+- Local CSV Formula Risk Checker - [(Link)](https://joysky77.github.io/csv-cleanup-services/csv-formula-risk-checker.html), [(Source)](https://github.com/joysky77/csv-cleanup-services) - free browser-local checker that reports formula-like cell locations and short previews without uploading the file, executing formulas, or modifying the source CSV.
 
