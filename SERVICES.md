@@ -67,6 +67,8 @@ puts csv_string
 
 - csv - [(Doc)](https://docs.rs/csv)
 
+- [Glim](https://github.com/NeoPanic/Glim) - macOS desktop CSV/TSV table viewer built with Rust and GPUI Kit, with source switching and multiline cell inspection.
+
 
 ### Services / Embed
 
