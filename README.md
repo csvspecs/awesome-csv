@@ -487,6 +487,7 @@ twitter: [CSVConference](https://twitter.com/CSVConference)
 _A curated list of awesome lists._
 
 - [Awesome CSV @ SecrectGeek](https://github.com/secretGeek/awesomecsv) - An awesome list of tools for dealing with CSV by Leon Bambrick
+- [Tidify](https://tidify-app.netlify.app) - Free 100% client-side CSV & spreadsheet cleaner in the browser (deduplication, ISO date standardization, contact normalization, and typo fixing) ([GitHub](https://github.com/D0ctorX/tidy))
 
 
 
