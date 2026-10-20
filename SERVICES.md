@@ -79,4 +79,5 @@ puts csv_string
 - CSV / JSON / XML Converter - [(Link)](https://nutilz.com/csv-json-xml-converter) - free tool that converts between CSV, JSON, and XML in any direction. No signup; files are processed in memory and discarded immediately, never stored or logged.
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
+- PaperPilot CSV Check - [(Link)](https://livastic-vm1-primary.github.io/paperpilot-tools/csv-usdc-checkout.html) - free, small browser-local CSV structure checker: quoted fields, missing cells, uneven rows, duplicate rows, and spreadsheet-formula warnings, with no signup or upload for the free check. A separate optional hosted type-pattern report costs 0.005 Base USDC, only after buyer consent and a wallet signature.
 
