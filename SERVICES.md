@@ -80,3 +80,5 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- Payout Bridge - [(Link)](https://kimheesoo-inventor.github.io/payout-bridge/) - free browser-local tool that compares a Shopify payout transactions CSV with an orders CSV; groups fees, refunds and adjustments per payout and flags amount gaps. No signup or file upload; files stay in your browser.
+
