@@ -80,3 +80,4 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- CSV Viewer - [(Link)](https://pagelive.io/tools/csv-viewer) - free browser-local viewer that opens a .csv or .tsv file as a table you can sort and search. Delimiter detection, no signup and no file upload.
