@@ -80,3 +80,5 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- Docexp CSV tools - [(Link)](https://docexp.com/tool/excel-to-csv) - free browser-local converters: Excel (.xlsx/.xls) to CSV with sheet picker and formulas as values, CSV to Excel, JSON to CSV with keys as headers, plus CSV merge, dedupe and column extract. No signup, files never leave the browser.
+
