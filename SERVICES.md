@@ -39,6 +39,8 @@ puts csv_string
 
 ### Python
 
+- Bible Reading Calendar - [(Source)](https://github.com/szj2ys/bible-reading-calendar) - offline Python CLI converting date/passage CSV rows, with optional notes, into all-day ICS calendar events.
+
 - CSV Standard Library - [(Doc)](http://docs.python.org/3/library/csv.html)
 
 - csvkit - [(Source)](https://github.com/wireservice/csvkit), [(Doc)](http://csvkit.readthedocs.org)
