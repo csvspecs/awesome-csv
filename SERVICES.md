@@ -80,3 +80,5 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- Stayput JSON to CSV - [(Link)](https://stayput.dev/tools/json-to-csv) - free browser-based JSON to CSV and CSV to JSON converter: paste text or drop a file, flatten nested data, pick the delimiter. No account; what you paste is not uploaded. Open source (MIT): [(Source)](https://github.com/keenanlk/stayput).
+
