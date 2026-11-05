@@ -80,3 +80,4 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- PageUtil CSV Fixer - [(Link)](https://pageutil.com/csv-fixer/) - free browser-local tool for diagnosing CSV encoding, delimiter and malformed-row issues, with XLSX export that preserves leading zeros and long identifiers as text. Supports up to 10 MB input; ambiguous structural repairs are not automated.
