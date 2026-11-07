@@ -80,3 +80,5 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- Offline CSV Cleaner - [(Link)](https://poppyos-tools.pages.dev/use/csv-cleaner/) - free browser-local CSV cleaner, no signup or upload. Removes duplicate rows on whole rows or chosen columns, can ignore case and spaces, keeps the first or last copy, and writes a second CSV listing every removed row with its row number and reason. Its Content-Security-Policy blocks network access.
+
