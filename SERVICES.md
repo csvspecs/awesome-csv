@@ -56,6 +56,8 @@ puts csv_string
 - csv-parse (for Node.js) - [(Doc)](https://csv.js.org), [(Source)](https://github.com/adaltas/node-csv)
 - csvtd-parser - [(Source)](https://github.com/OSP-Engineer/csvtd-parser) - zero-dependency, quote-correct parser with conservative delimiter auto-detection (comma stays comma unless another delimiter cleanly wins); runs in Node, the browser and Web Workers
 - d3-dsv - [(Source)](https://github.com/d3/d3-dsv)
+- payment-csv-to-quickbooks - [(Source)](https://github.com/dylancaponi/payment-csv-to-quickbooks), [(Link)](https://booksready.dylan-caponi.workers.dev) - zero-dependency engine that converts Venmo, PayPal, Stripe, Square, Etsy, bank CSV, MT940 and camt.053 into QuickBooks .qbo, OFX, QuickBooks Online CSV or Xero CSV; runs in the browser, nothing uploaded
+- product-csv-to-shopify-woocommerce - [(Source)](https://github.com/dylancaponi/product-csv-to-shopify-woocommerce), [(Link)](https://cataloghop.dylan-caponi.workers.dev) - zero-dependency engine that converts Etsy, Wix, Squarespace, BigCommerce, Square and Magento 2 product CSVs into Shopify or WooCommerce import CSV, plus import checkers
 - papaparse - [(Doc)](https://www.papaparse.com/), [(Source)](https://github.com/mholt/PapaParse)
 
 ### Racket
