@@ -57,6 +57,7 @@ puts csv_string
 - csvtd-parser - [(Source)](https://github.com/OSP-Engineer/csvtd-parser) - zero-dependency, quote-correct parser with conservative delimiter auto-detection (comma stays comma unless another delimiter cleanly wins); runs in Node, the browser and Web Workers
 - d3-dsv - [(Source)](https://github.com/d3/d3-dsv)
 - papaparse - [(Doc)](https://www.papaparse.com/), [(Source)](https://github.com/mholt/PapaParse)
+- rfc4180-csv - [(Source)](https://github.com/Abdallaeng/rfc4180-csv) - zero-dependency TypeScript parser and writer; reports malformed input with line and column instead of throwing, CSV to JSON with conservative type inference (leading zeros and long IDs stay strings), JSON to CSV with optional spreadsheet formula escaping
 
 ### Racket
 
