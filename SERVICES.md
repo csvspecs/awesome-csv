@@ -80,3 +80,4 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- Tongshi AI Order CSV Check (Chinese UI) - [(Link)](https://sqtlow7jjmgjdgncr4fhmf7pki.srv.us/tools/order-csv-check) - free browser-local checker for ecommerce order exports. Finds duplicate or missing order IDs and blank amounts, and exports a CSV report with the source row numbers.
