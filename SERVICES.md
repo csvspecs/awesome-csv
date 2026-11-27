@@ -80,3 +80,5 @@ puts csv_string
 
 - CSV Preflight - [(Link)](https://softpeanut.github.io/csv-preflight/) - free browser-local CSV validator and normalizer. Checks headers, row widths, duplicate rows, delimiters, and common encoding failures with no signup or file upload.
 
+- PrivateCSV - [(Link)](https://privatecsv.com) - free browser-local CSV and spreadsheet toolkit (54 tools): view and search up to 1M rows, split, merge, validate, compare, and convert to/from Excel, JSON, XML, PDF, Parquet, KML, ICS, vCard and QuickBooks/Quicken formats (QBO, IIF, QIF). Static site with no backend: files are processed in Web Workers and never uploaded.
+
